@@ -106,11 +106,68 @@ Battuta is an app that makes use of API in order to help users plan out their fu
 
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/Battuta2.gif" width=200>
 
-## Schema 
-[This section will be completed in Unit 9]
+
+## Schema
+
 ### Models
-[Add table of models]
+
+#### Trip Model
+   | Property              | Type     | Description |
+   | -------------         | -------- | ------------|
+   | Trip Information      | String/Array   | Information on trip |
+   | Destination To        | String   | Location of destination traveling to |
+   | Destination From      | String   | Location of destination traveling from |
+   | Transportation Type   | String   | Type of transportation |
+   | Transportation Company| String   | Company for transportation |
+   | Transportation Info   | String/Array   | Information on transportation |
+   | Transportation Cost   | Number   | Cost of transportation |
+   | Lodging Company       | String   | Company for lodging |
+   | Lodging Info          | String/Array   | Information on room |
+   | Lodging Cost          | Number   | Cost of lodging |
+   | Total Cost            | Number   | Total trip cost |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### Outline Parse Network Requests (List of network requests by screen)
+* Pick a destination
+    * (Read/GET) Query for user destination choice
+    * (Create/POST) Create a new trip
+* Pick your transportation
+    * (Read/GET) Query for user transportation choice
+    * (Update/PUT) Update trip transportation
+* Pick your lodging
+    * (Read/GET) Query for user lodging choice
+    * (Update/PUT) Update trip lodging
+* Trip list
+    * (Read/GET) Query for user trips
+    * (Delete) Delete existing trips
+* Trip details
+    * (Read/GET) Query for trip information
+    * (Delete) Delete existing trips
+    * (Update/PUT) Update trip information
+
+#### Outline Network Requests for Existing APIs
+
+##### Skyscanner API
+- Base URL- https://rapidapi.com/skyscanner/api/skyscanner-flight-search?endpoint=5a9c9edde4b084deb4ea6195
+
+    | HTTP Verb | Endpoint      | Description    |
+    | --------  | --------      | --------       |
+    | `GET`     | Browse Quotes | Browse Quotes  |
+    | `GET`     | Browse Routes | Browse Routes  |
+    | `GET`     | Browse Dates  | Browse Dates   |
+    | `GET`     | List Places   | List Places    |
+    | `GET`     | To Skyscanner | Obtain Data    |
+	
+##### Hotels.com API
+- Base URL- https://rapidapi.com/apidojo/api/hotels4?endpoint=apiendpoint_dd6bbe39-cc27-4600-acbb-504d180b4d0d
+
+    | HTTP Verb | Endpoint              | Description                       |
+    | --------  | --------              | --------                          |
+    | `GET`     | locations/search      | search for locations              |
+    | `GET`     | properties/get-details| obtain details about the property |
+    | `GET`     | properties/list       | obtain list of properties         |
+
+##### Google Hotel API
+- Base URL- https://developers.google.com/hotels
+
