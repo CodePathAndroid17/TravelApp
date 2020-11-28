@@ -14,7 +14,9 @@ Original App Design Project
 
 ##Sprint GIFs
 ###Sprint 1
+
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaMayaTemplate.gif" width=200>
+
 ###Sprint 2
 
 ###Sprint 3
