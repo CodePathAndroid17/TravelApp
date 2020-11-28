@@ -1,15 +1,10 @@
-# Unit 8 Submission
-
-Original App Design Project
-===
-
 # Battuta
 
 ## Table of Contents
-1. [Sprints](#Sprints)
+1. [Sprint GIFs](#Sprint GIFs)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+1. [Digital Wireframes & Mockups](#Digital Wireframes & Mockups)
 2. [Schema](#Schema)
 
 ## Sprint GIFs
