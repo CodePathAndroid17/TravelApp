@@ -12,14 +12,20 @@ Original App Design Project
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 
-##Sprint GIFs
-###Sprint 1
+## Sprint GIFs
+### Sprint 1
 
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaMayaTemplate.gif" width=200>
 
-###Sprint 2
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/SPUnit10GIF.gif" width=200>
 
-###Sprint 3
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaDavidTemplate.gif" width=200>
+
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaDavidRVTemplate.gif" width=200>
+
+### Sprint 2
+
+### Sprint 3
 
 
 ## Overview
