@@ -1,10 +1,10 @@
 # Battuta
 
 ## Table of Contents
-1. [Sprint GIFs](#Sprint GIFs)
+1. [Sprint GIFs](#Sprint\GIFs)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
-1. [Digital Wireframes & Mockups](#Digital Wireframes & Mockups)
+1. [Digital Wireframes & Mockups](#Digital\Wireframes\&\Mockups)
 2. [Schema](#Schema)
 
 ## Sprint GIFs
