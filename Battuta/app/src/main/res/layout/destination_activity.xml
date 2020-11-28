@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/greenBackground"
+        android:layout_width="635dp"
+        android:layout_height="966dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-122dp"
+        android:layout_marginTop="-213dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="-22dp"
+        app:srcCompat="@drawable/bg_green" />
+
+    <ImageView
+        android:id="@+id/whiteBackground"
+        android:layout_width="413dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="554dp"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/destinationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Pick A Destination"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/currentLocation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fromWhereResponse"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_brown_no_txt"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="Use Current Location"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/whereTo"
+        android:layout_width="219dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="213dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+
+        android:text="Where To?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fromWhere"
+        android:layout_width="219dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/whereToResponse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+
+        android:gravity="center"
+        android:text="From Where?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/leftBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        app:srcCompat="@drawable/icons_light_back"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/btn_next"
+        android:fontFamily="@font/montserrat"
+
+        android:text="        NEXT"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/whereToResponse"
+        android:layout_width="350dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/whereTo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#99FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_bold"
+        android:inputType="textPersonName"
+        android:text="Enter your response here"
+        android:textAlignment="center"
+        android:textColor="#99FFFFFF" />
+
+    <EditText
+        android:id="@+id/fromWhereResponse"
+        android:layout_width="350dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/fromWhere"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="7dp"
+        android:backgroundTint="#99FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_bold"
+        android:inputType="textPersonName"
+        android:text="Enter your response here"
+        android:textAlignment="center"
+        android:textColor="#99FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/whereToSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="60dp"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_baseline_search_24" />
+
+    <ImageButton
+        android:id="@+id/fromWhereSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="60dp"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_baseline_search_24" />
+
+</RelativeLayout>
