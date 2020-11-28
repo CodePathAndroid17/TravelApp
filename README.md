@@ -6,10 +6,19 @@ Original App Design Project
 # Battuta
 
 ## Table of Contents
+1. [Sprints](#Sprints)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+
+##Sprint GIFs
+###Sprint 1
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaMayaTemplate.gif" width=200>
+###Sprint 2
+
+###Sprint 3
+
 
 ## Overview
 ### Description
