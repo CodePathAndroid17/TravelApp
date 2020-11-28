@@ -1,13 +1,13 @@
 # Battuta
 
 ## Table of Contents
-1. [Sprint GIFs](#Sprint\GIFs)
+1. [Sprint](#Sprint)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
-1. [Digital Wireframes & Mockups](#Digital\Wireframes\&\Mockups)
+1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 
-## Sprint GIFs
+## Sprint
 ### Sprint 1
 
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaMayaTemplate.gif" width=200>
@@ -110,7 +110,7 @@ Battuta is an app that makes use of API in order to help users plan out their fu
                    * Trip details
            * Home
 
-### Digital Wireframes & Mockups
+## Wireframes
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaWireframe.png" width=600>
 
 ### Interactive Prototype
