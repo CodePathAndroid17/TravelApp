@@ -46,22 +46,22 @@ Battuta is an app that makes use of API in order to help users plan out their fu
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* Able to search for locations to travel to
-* Able to search for transportation options
-* Able to search for lodging options
-* Able to detect user's current location (may need to set up permissions)
-* Buttons should be able to move users to correct screens and options
-* The costs of transportation and lodging should be totaled for the cost analysis
-* More detailed information should be correctly displayed for the transportation and lodging options
-* Data for the app user is able to be persisted between them opening and closing the app
+- [ ] Able to search for locations to travel to
+- [ ] Able to search for transportation options
+- [ ] Able to search for lodging options
+- [ ] Able to detect user's current location (may need to set up permissions)
+- [ ] Buttons should be able to move users to correct screens and options
+- [ ] The costs of transportation and lodging should be totaled for the cost analysis
+- [ ] More detailed information should be correctly displayed for the transportation and lodging options
+- [ ] Data for the app user is able to be persisted between them opening and closing the app
 
 **Optional Nice-to-have Stories**
-* User has an account and is able to log in to see their information and trips
-* User has a profile page
-* Additional filtering options for the transportation and lodging search
-* Nearest location for transportation is able to be computed for the user's current location
-* Option for "sub-destinations" on trips, meaning that traveling within a trip can be planned in more detail
-* More detailed information on the cost of the trips (budgeting, seeing how much needs to be saved up, miscellaneous costs during the trip such as for eating, etc.)
+- [ ] User has an account and is able to log in to see their information and trips
+- [ ] User has a profile page
+- [ ] Additional filtering options for the transportation and lodging search
+- [ ] Nearest location for transportation is able to be computed for the user's current location
+- [ ] Option for "sub-destinations" on trips, meaning that traveling within a trip can be planned in more detail
+- [ ] More detailed information on the cost of the trips (budgeting, seeing how much needs to be saved up, miscellaneous costs during the trip such as for eating, etc.)
 
 ### 2. Screen Archetypes
 
