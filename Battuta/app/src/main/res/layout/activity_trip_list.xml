@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ListView
-        android:layout_width="369dp"
-        android:layout_height="515dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="90dp"
-        android:layout_marginStart="21dp" />
+    <ImageView
+        android:id="@+id/greenBackground2"
+        android:layout_width="635dp"
+        android:layout_height="966dp"
+        android:layout_marginStart="-122dp"
+        android:layout_marginTop="-213dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="-22dp"
+        app:srcCompat="@drawable/bg_green" />
 
-    <Button
-        android:id="@+id/btnNext"
+    <ListView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="440dp"
         android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="110dp"
+
+
+        >
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/whiteBackground2"
+        android:layout_width="413dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="26dp"
-        android:layout_marginEnd="34dp"
-        android:text="Next" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="554dp"
+        app:srcCompat="@drawable/top" />
 
     <TextView
         android:id="@+id/tvTitle"
@@ -28,8 +49,38 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Trip List"
-        android:textSize="50dp" />
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/leftBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:gravity="center"
+        app:srcCompat="@drawable/icons_light_back" />
+
+    <Button
+        android:id="@+id/nextBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/btn_next"
+        android:fontFamily="@font/montserrat"
+
+        android:text="        NEXT"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF" />
+
 </RelativeLayout>

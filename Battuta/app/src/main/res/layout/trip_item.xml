@@ -20,11 +20,11 @@
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivTransport"
         android:fontFamily="@font/montserrat"
-        android:text="Transportation Name"
+        android:text="Trip Location"
         android:textSize="15dp" />
 
     <TextView
-        android:id="@+id/transportationMethod"
+        android:id="@+id/overallCost"
         android:layout_width="124dp"
         android:layout_height="30dp"
         android:layout_below="@+id/tripLocation"
@@ -34,14 +34,14 @@
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivTransport"
         android:fontFamily="@font/montserrat"
-        android:text="Transportation Method"
+        android:text="Overall Cost"
         android:textSize="15sp" />
 
     <TextView
         android:id="@+id/lodgePrice"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/transportationMethod"
+        android:layout_below="@+id/overallCost"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"

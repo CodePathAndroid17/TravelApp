@@ -7,55 +7,57 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/travel_logo"
+        android:id="@+id/ivTransport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/lodge_name"
-        android:layout_width="152dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/tripLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginEnd="86dp"
-        android:layout_toEndOf="@+id/travel_logo"
-        android:text="Lodging_Name"
-        android:textSize="18sp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat"
+        android:text="Lodging Name"
+        android:textSize="15dp" />
 
     <TextView
-        android:id="@+id/room_info"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/lodge_name"
+        android:id="@+id/Overall Cost"
+        android:layout_width="124dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tripLocation"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="120dp"
-        android:layout_toEndOf="@+id/travel_logo"
-        android:text="RoomInfo"
-        android:textSize="18sp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat"
+        android:text="Room Information"
+        android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/price"
-        android:layout_width="102dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/room_info"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="12dp"
-        android:layout_toEndOf="@+id/travel_logo"
+        android:id="@+id/lodgePrice"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Overall Cost"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat_bold"
         android:text="$ 00.00"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/per_night"
+        android:id="@+id/perNight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/lodge_name"
-        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Overall Cost"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="51dp"
-        android:layout_toEndOf="@+id/price"
-        android:text="/per night" />
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/lodgePrice"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="/ per Night" />
 </RelativeLayout>

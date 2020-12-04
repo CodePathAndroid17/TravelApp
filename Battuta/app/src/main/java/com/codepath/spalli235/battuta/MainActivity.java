@@ -31,7 +31,7 @@ public String photoFileName = "photo.jpg";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.onboarding_activity);
 
         bottomNavigationView = findViewById(R.id.bottomNavigation);
 
