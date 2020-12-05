@@ -20,6 +20,7 @@
 
 ### Sprint 2
 
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaFinalTemplate.gif" width=200>
 ### Sprint 3
 
 
@@ -44,6 +45,16 @@ Battuta is an app that makes use of API in order to help users plan out their fu
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
+
+**Required Screens**
+- [x] Onboarding
+- [x] Options 
+- [ ] Transportation
+- [ ] Lodging
+- [ ] Trip Summary
+- [ ] Trip List
+- [ ] Edit Trip Screen
+- [ ] Edit Trip Screen Options
 
 **Required Must-have Stories**
 - [ ] Able to search for locations to travel to
