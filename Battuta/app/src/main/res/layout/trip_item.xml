@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/ivTransport"
+        android:id="@+id/ivTrip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
@@ -18,7 +18,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
-        android:layout_toEndOf="@+id/ivTransport"
+        android:layout_toEndOf="@+id/ivTrip"
         android:fontFamily="@font/montserrat"
         android:text="Trip Location"
         android:textSize="15dp" />
@@ -32,13 +32,13 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransport"
+        android:layout_toEndOf="@+id/ivTrip"
         android:fontFamily="@font/montserrat"
         android:text="Overall Cost"
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/lodgePrice"
+        android:id="@+id/tripPrice"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/overallCost"
@@ -46,7 +46,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransport"
+        android:layout_toEndOf="@+id/ivTrip"
         android:fontFamily="@font/montserrat_bold"
         android:text="$ 00.00"
         android:textSize="30sp" />

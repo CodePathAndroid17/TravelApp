@@ -6,13 +6,13 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/ivTransport"
+        android:id="@+id/ivLodge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/tripLocation"
+        android:id="@+id/lodgeName"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentEnd="true"
