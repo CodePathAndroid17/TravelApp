@@ -6,45 +6,48 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivTransport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/transport_name"
-        android:layout_width="130dp"
+        android:id="@+id/transportationName"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="113dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:text="transport_Name"
-        android:textSize="18sp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat"
+        android:text="Transportation Name"
+        android:textSize="15dp" />
 
     <TextView
-        android:id="@+id/method_type"
+        android:id="@+id/transportationMethod"
         android:layout_width="124dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/transport_name"
+        android:layout_height="30dp"
+        android:layout_below="@+id/transportationName"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="113dp"
-        android:layout_toEndOf="@+id/imageView"
-        android:text="Method type"
-        android:textSize="18sp" />
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat"
+        android:text="Transportation Method"
+        android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/price"
+        android:id="@+id/transportPrice"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/method_type"
+        android:layout_below="@+id/transportationMethod"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="102dp"
-        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivTransport"
+        android:fontFamily="@font/montserrat_bold"
         android:text="$ 00.00"
-        android:textSize="36sp" />
+        android:textSize="30sp" />
 </RelativeLayout>

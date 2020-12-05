@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/greenBackground5"
+        android:layout_width="635dp"
+        android:layout_height="966dp"
+        android:layout_marginStart="-122dp"
+        android:layout_marginTop="-213dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="-22dp"
+        app:srcCompat="@drawable/bg_green" />
+
+    <ImageView
+        android:id="@+id/whiteBackground5"
+        android:layout_width="413dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="556dp"
+        app:srcCompat="@drawable/top" />
+
+    <Button
+        android:id="@+id/nextBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/btn_next"
+        android:fontFamily="@font/montserrat"
+
+        android:text="        HOME"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/leftBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:gravity="center"
+        app:srcCompat="@drawable/icons_light_back" />
+
+
+    <TextView
+        android:id="@+id/tvEditTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Edit A Trip"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/editTransportation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDestination"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Edit Transportation"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/editDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Edit Destination"
+
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/editLodging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTransportation"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+
+
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Edit Lodging"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

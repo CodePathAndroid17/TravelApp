@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
 
+def apikeyPropertiesFile = rootProject.file("apikey.properties")
+def apikeyProperties = new Properties()
+apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
+
+
 android {
     compileSdkVersion 29
 
@@ -11,6 +16,14 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "AMADEUS_TRANSPORTATION_KEY", apikeyProperties['AMADEUS_TRANSPORTATION_KEY'])
+        buildConfigField("String", "AMADEUS_TRANSPORTATION_SECRET", apikeyProperties['AMADEUS_TRANSPORTATION_SECRET'])
+
+        buildConfigField("String", "PARSE_APPLICATION_ID", apikeyProperties['PARSE_APPLICATION_ID'])
+        buildConfigField("String", "PARSE_CLIENT_KEY", apikeyProperties['PARSE_CLIENT_KEY'])
+
+        buildConfigField("String", "LODGING_KEY", apikeyProperties['LODGING_KEY'])
+        buildConfigField("String", "LODGING_SECRET", apikeyProperties['LODGING_SECRET'])
     }
 
     buildTypes {
@@ -33,5 +46,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
+    implementation 'com.codepath.libraries:asynchttpclient:2.0.0'
+    compile "com.amadeus:amadeus-java:5.6.0"
+    implementation 'com.github.parse-community.Parse-SDK-Android:parse:1.24.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1' // for logging API calls to LogCat
 }

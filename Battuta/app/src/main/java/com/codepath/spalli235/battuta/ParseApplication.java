@@ -1,10 +1,7 @@
 package com.codepath.spalli235.battuta;
 
 import android.app.Application;
-import android.os.Build;
-
 import com.parse.Parse;
-import com.parse.ParseObject;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -13,9 +10,6 @@ public class ParseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        //Register Parse Models
-        ParseObject.registerSubclass(Post.class);
 
         // Use for troubleshooting -- remove this line for production
         Parse.setLogLevel(Parse.LOG_LEVEL_DEBUG);
@@ -31,13 +25,8 @@ public class ParseApplication extends Application {
         // set applicationId, and server server based on the values in the back4app settings.
         // any network interceptors must be added with the Configuration Builder given this syntax
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId("no you dont") // should correspond to Application Id env variable
-                .clientKey("please dont steal")  // should correspond to Client key env variable
+                .applicationId(BuildConfig.PARSE_APPLICATION_ID) // should correspond to Application Id env variable
+                .clientKey(BuildConfig.PARSE_CLIENT_KEY)  // should correspond to Client key env variable
                         .server("https://parseapi.back4app.com").build());
-
-        // New test creation of object below
-       /* ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();*/
     }
 }
