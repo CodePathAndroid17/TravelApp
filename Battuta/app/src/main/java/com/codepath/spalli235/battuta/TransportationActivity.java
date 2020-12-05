@@ -1,7 +1,11 @@
 package com.codepath.spalli235.battuta;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,7 +20,6 @@ import okhttp3.Headers;
 
 public class TransportationActivity extends AppCompatActivity {
 
-
 public static final String TRANSPORTATION_API_URL = "test.api.amadeus.com";
   public static final String TAG = "Transportation Activity";
 
@@ -25,7 +28,32 @@ public static final String TRANSPORTATION_API_URL = "test.api.amadeus.com";
 {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_transport);
-    AsyncHttpClient client = new AsyncHttpClient();
+
+    ImageButton leftBtn4;
+     Button nextBtn4;
+
+
+    leftBtn4 = findViewById(R.id.leftBtn4);
+    nextBtn4 = findViewById(R.id.nextBtn4);
+
+    nextBtn4.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            goLodgingActivity();
+        }
+    });
+    leftBtn4.setOnClickListener(new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            goDestinationActivity();
+        }
+    });
+
+   /* AsyncHttpClient client = new AsyncHttpClient();
 
     client.get(TRANSPORTATION_API_URL, new JsonHttpResponseHandler() {
         @Override
@@ -50,7 +78,21 @@ public static final String TRANSPORTATION_API_URL = "test.api.amadeus.com";
             Log.d(TAG, "onFailure");
 
         }
-    });
+    });*/
+
+
+}
+    private void goDestinationActivity() {
+    Intent i = new Intent(this, DestinationActivity.class);
+    startActivity(i);
+    finish();
+}
+    private void goLodgingActivity() {
+    Intent i = new Intent(this, LodgingActivity.class);
+    startActivity(i);
+    finish();
+}
+
 
 
 
@@ -58,5 +100,3 @@ public static final String TRANSPORTATION_API_URL = "test.api.amadeus.com";
 
 }
 
-
-}

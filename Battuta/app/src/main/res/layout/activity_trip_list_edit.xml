@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="110dp" />
+
     <ImageView
         android:id="@+id/greenBackground2"
         android:layout_width="635dp"
@@ -14,20 +23,6 @@
         android:layout_marginEnd="-102dp"
         android:layout_marginBottom="-22dp"
         app:srcCompat="@drawable/bg_green" />
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="440dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="110dp"
-
-
-        >
-
-    </ListView>
 
     <ImageView
         android:id="@+id/whiteBackground2"
@@ -57,7 +52,7 @@
         android:textSize="30sp" />
 
     <ImageButton
-        android:id="@+id/leftBtn2"
+        android:id="@+id/leftBtnEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -69,7 +64,7 @@
         app:srcCompat="@drawable/icons_light_back" />
 
     <Button
-        android:id="@+id/nextBtn2"
+        android:id="@+id/nextBtnEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -77,8 +72,8 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="35dp"
         android:background="@drawable/btn_next"
-        android:fontFamily="@font/montserrat"
 
+        android:fontFamily="@font/montserrat"
         android:text="        NEXT"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF" />

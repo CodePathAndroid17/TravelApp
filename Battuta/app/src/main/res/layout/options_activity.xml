@@ -42,7 +42,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/btn_brown_no_txt"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Edit a Trip"
+        android:text="Edit/View Trips"
         android:textColor="#FFFFFF" />
 
     <TextView

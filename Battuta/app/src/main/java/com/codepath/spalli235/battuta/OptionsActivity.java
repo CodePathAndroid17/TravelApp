@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class OptionsActivity extends AppCompatActivity {
 
-    public static final String TAG = "OnboardingActivity";
     private Button tripPlan_btn;
     private Button tripEdit_btn;
     private ImageButton backBtn;
@@ -38,7 +37,7 @@ public class OptionsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                goEditActivity();
+                goTripListEditActivity();
             }
         });
 
@@ -53,8 +52,8 @@ public class OptionsActivity extends AppCompatActivity {
 
     }
 
-    private void goEditActivity() {
-        Intent i = new Intent(this, EditActivity.class);
+    private void goTripListEditActivity() {
+        Intent i = new Intent(this, TripListEditActivity.class);
         startActivity(i);
         finish();
     }
