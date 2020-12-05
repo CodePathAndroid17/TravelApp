@@ -6,13 +6,13 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/ivLodge"
+        android:id="@+id/ivTransport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/lodgeName"
+        android:id="@+id/transportationName"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentEnd="true"
@@ -27,7 +27,7 @@
         android:id="@+id/transportationMethod"
         android:layout_width="124dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/tripLocation"
+        android:layout_below="@+id/transportationName"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
@@ -38,7 +38,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/lodgePrice"
+        android:id="@+id/transportPrice"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/transportationMethod"

@@ -24,9 +24,6 @@ public class LodgeAdapter {
                 lodgeName = itemView.findViewById(R.id.lodgeName);
                 roomInfo = itemView.findViewById(R.id.roomInfo);
                 ivLodge = itemView.findViewById(R.id.ivLodge);
-
         }
-
-
     }
 }

@@ -13,7 +13,6 @@ import com.amadeus.resources.Location;
 
 public class AmadeusApplication {
 
-
     public static void main(String[] args) throws ResponseException {
         Amadeus amadeus = Amadeus
                 .builder(BuildConfig.AMADEUS_TRANSPORTATION_KEY, BuildConfig.AMADEUS_TRANSPORTATION_SECRET)

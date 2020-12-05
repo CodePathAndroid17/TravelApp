@@ -16,18 +16,18 @@ public class FlightAdapter {
 
     public class ViewHolder extends RecyclerView.ViewHolder
     {
-        TextView lodgeName;
-        TextView roomInfo;
-        TextView lodgePrice;
-        ImageView ivLodge;
+        TextView transportationMethod;
+        TextView transportationName;
+        TextView transportationPrice;
+        ImageView ivTransport;
 
         public ViewHolder(@Nonnegative View itemView)
         {
             super(itemView);
-               lodgePrice = itemView.findViewById(R.id.lodgePrice);
-               lodgeName = itemView.findViewById(R.id.lodgeName);
-               roomInfo = itemView.findViewById(R.id.roomInfo);
-               ivLodge = itemView.findViewById(R.id.ivLodge);
+            transportationMethod = itemView.findViewById(R.id.transportationMethod);
+            transportationName = itemView.findViewById(R.id.transportationName);
+            transportationPrice = itemView.findViewById(R.id.transportPrice);
+            ivTransport = itemView.findViewById(R.id.ivTransport);
         }
     }
 }
