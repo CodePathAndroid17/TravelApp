@@ -8,33 +8,33 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TripListActivity extends AppCompatActivity {
+public class TripListEditActivity extends AppCompatActivity {
 
-    private Button nextBtn2;
-    private ImageButton leftBtn2;
+    private Button nextBtnEdit;
+    private ImageButton leftBtnEdit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trip_list_home);
+        setContentView(R.layout.activity_trip_list_edit);
 
-        nextBtn2 = findViewById(R.id.nextBtn2);
-        leftBtn2 = findViewById(R.id.leftBtn2);
+        nextBtnEdit = findViewById(R.id.nextBtnEdit);
+        leftBtnEdit = findViewById(R.id.leftBtnEdit);
 
-        nextBtn2.setOnClickListener(new View.OnClickListener()
+        nextBtnEdit.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                goEditTripActivity();
+            }
+        });
+        leftBtnEdit.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
                 goOptionsActivity();
-            }
-        });
-        leftBtn2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                goLodgingActivity();
             }
         });
     }
@@ -45,8 +45,8 @@ public class TripListActivity extends AppCompatActivity {
         finish();
     }
 
-    private void goLodgingActivity() {
-        Intent i = new Intent(this, LodgingActivity.class);
+    private void goEditTripActivity() {
+        Intent i = new Intent(this, TripSummary.class);
         startActivity(i);
         finish();
     }

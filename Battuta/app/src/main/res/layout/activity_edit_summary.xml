@@ -71,121 +71,6 @@
         android:layout_marginBottom="108dp"
         app:srcCompat="@drawable/rectangle_563" />
 
-    <ImageView
-        android:id="@+id/ivLodge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="195dp"
-
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/lodgeName"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="195dp"
-        android:layout_toEndOf="@+id/ivTransport"
-        android:fontFamily="@font/montserrat"
-        android:text="Trip Location"
-        android:textSize="15dp" />
-
-    <TextView
-        android:id="@+id/overallCost"
-        android:layout_width="124dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/tripLocation"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransport"
-        android:fontFamily="@font/montserrat"
-        android:text="Overall Cost"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/lodgePrice"
-        android:layout_width="147dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/overallCost"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransport"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="$ 00.00"
-        android:textSize="30sp" />
-
-
-    <ImageView
-        android:id="@+id/ivTransportSummary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ivTransport"
-        android:layout_marginTop="10dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/tripLocationSummary"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_below="@+id/lodgePrice"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="15dp"
-        android:layout_toEndOf="@+id/ivTransportSummary"
-        android:fontFamily="@font/montserrat"
-        android:text="Lodging Name"
-        android:textSize="15dp" />
-
-    <TextView
-        android:id="@+id/roomInfoSummary"
-        android:layout_width="124dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/tripLocationSummary"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransportSummary"
-        android:fontFamily="@font/montserrat"
-        android:text="Room Information"
-        android:textSize="15sp" />
-
-    <TextView
-        android:id="@+id/lodgePriceSummary"
-        android:layout_width="147dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/roomInfoSummary"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="5dp"
-        android:layout_toEndOf="@+id/ivTransportSummary"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="$ 00.00"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/perNight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/roomInfoSummary"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/lodgePriceSummary"
-        android:fontFamily="@font/montserrat_bold"
-        android:text="/ per Night" />
-
-
-    <ImageView
-        android:id="@+id/ivTransportSum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ivTransportSummary"
-        android:layout_marginTop="10dp"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/tvEditTrip"
@@ -200,15 +85,79 @@
         android:textColor="#000000"
         android:textSize="30sp" />
 
+    <!-- beginning of trip summary-->
+    <ImageView
+        android:id="@+id/ivTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="195dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <TextView
-        android:id="@+id/tripLocationSum"
+        android:id="@+id/tripLocation"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_below="@+id/lodgePriceSummary"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="30dp"
-        android:layout_toEndOf="@+id/ivTransportSum"
+        android:layout_marginTop="200dp"
+        android:layout_toEndOf="@+id/ivTrip"
+        android:fontFamily="@font/montserrat"
+        android:text="Trip Location"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/overallCost"
+        android:layout_width="124dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tripLocation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivTrip"
+        android:fontFamily="@font/montserrat"
+        android:text="Overall Cost"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tripPrice"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overallCost"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivTrip"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="$ 00.00"
+        android:textSize="30sp" />
+
+
+
+
+    <!-- end of trip summary-->
+    <!-- beginning of transport-->
+    <ImageView
+        android:id="@+id/ivTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivTrip"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/transportationName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tripPrice"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ivTransport"
         android:fontFamily="@font/montserrat"
         android:text="Transportation Name"
         android:textSize="15dp" />
@@ -217,11 +166,10 @@
         android:id="@+id/transportationMethod"
         android:layout_width="124dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/tripLocationSum"
+        android:layout_below="@+id/transportationName"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
-
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivTransport"
         android:fontFamily="@font/montserrat"
@@ -229,7 +177,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/lodgePriceSum"
+        android:id="@+id/transportPrice"
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/transportationMethod"
@@ -237,10 +185,75 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="0dp"
-        android:layout_toEndOf="@+id/ivTransportSum"
+        android:layout_toEndOf="@+id/ivTransport"
         android:fontFamily="@font/montserrat_bold"
         android:text="$ 00.00"
         android:textSize="30sp" />
+
+    <!-- end of transport-->
+    <!-- beginning of lodging-->
+    <ImageView
+        android:id="@+id/ivLodge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivTransport"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/lodgeName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/transportPrice"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/ivLodge"
+        android:fontFamily="@font/montserrat"
+        android:text="Lodging Name"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/roomInfo"
+        android:layout_width="124dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/lodgeName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/ivLodge"
+        android:fontFamily="@font/montserrat"
+        android:text="Room Information"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/lodgePrice"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roomInfo"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivLodge"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="$ 00.00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/perNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roomInfo"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/lodgePrice"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="/ per Night" />
+
+
+    <!-- end of lodging-->
 
 
 </RelativeLayout>
