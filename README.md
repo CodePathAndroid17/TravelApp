@@ -21,8 +21,10 @@
 ### Sprint 2
 
 <img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaFinalTemplate.gif" width=200>
+
 ### Sprint 3
 
+<img src="https://github.com/CodePathAndroid17/TravelApp/raw/main/BattutaFinalTemplate.gif" width=200>
 
 ## Overview
 ### Description
@@ -49,22 +51,22 @@ Battuta is an app that makes use of API in order to help users plan out their fu
 **Required Screens**
 - [x] Onboarding
 - [x] Options 
-- [ ] Transportation
-- [ ] Lodging
-- [ ] Trip Summary
-- [ ] Trip List
-- [ ] Edit Trip Screen
-- [ ] Edit Trip Screen Options
+- [x] Transportation
+- [x] Lodging
+- [x] Trip Summary
+- [x] Trip List
+- [x] Edit Trip Screen
+- [x] Edit Trip Screen Options
 
 **Required Must-have Stories**
-- [ ] Able to search for locations to travel to
-- [ ] Able to search for transportation options
-- [ ] Able to search for lodging options
-- [ ] Able to detect user's current location (may need to set up permissions)
-- [ ] Buttons should be able to move users to correct screens and options
-- [ ] The costs of transportation and lodging should be totaled for the cost analysis
-- [ ] More detailed information should be correctly displayed for the transportation and lodging options
-- [ ] Data for the app user is able to be persisted between them opening and closing the app
+- [x] Able to search for locations to travel to
+- [x] Able to search for transportation options
+- [x] Able to search for lodging options
+- [x] Able to detect user's current location (may need to set up permissions)
+- [x] Buttons should be able to move users to correct screens and options
+- [x] The costs of transportation and lodging should be totaled for the cost analysis
+- [x] More detailed information should be correctly displayed for the transportation and lodging options
+- [x] Data for the app user is able to be persisted between them opening and closing the app
 
 **Optional Nice-to-have Stories**
 - [ ] User has an account and is able to log in to see their information and trips
